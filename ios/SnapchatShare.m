@@ -68,8 +68,8 @@ RCT_EXPORT_MODULE();
                        SCSDKSnapSticker * sticker = [[SCSDKSnapSticker alloc] initWithStickerUrl:stickerUrl isAnimated:isAnimated];
 
                        // cgfloats, https://docs.snapchat.com/docs/api/ios/ in SCSDKSnapSticker
-                       sticker.posX = 0.5; // half screen
-                       sticker.posY = 0.5; // half screen
+                       sticker.posX = 0.35; // half screen
+                       sticker.posY = 0.3; // half screen
                        sticker.rotation = 3.14; // 0 - 2pi radians
                        // sticker.height, sticker.width deprecated
                        videoContent.sticker = sticker;
@@ -136,8 +136,8 @@ RCT_EXPORT_MODULE();
                    SCSDKSnapSticker * sticker = [[SCSDKSnapSticker alloc] initWithStickerUrl:stickerUrl isAnimated:isAnimated];
 
                    // cgfloats, https://docs.snapchat.com/docs/api/ios/ in SCSDKSnapSticker
-                   sticker.posX = 0.5; // half screen
-                   sticker.posY = 0.5; // half screen
+                   sticker.posX = 0.35; // half screen
+                   sticker.posY = 0.3; // half screen
                    sticker.rotation = 3.14; // 0 - 2pi radians
                    // sticker.height, sticker.width deprecated
                    snap.sticker = sticker;

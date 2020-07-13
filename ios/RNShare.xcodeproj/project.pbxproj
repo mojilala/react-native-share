@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D697F8423A86EBC00F754A1 /* RNShareActivityItemSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D697F8323A86EBC00F754A1 /* RNShareActivityItemSource.m */; };
 		78108AA823733C8D00D2BE49 /* SnapchatShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 78108AA723733C8C00D2BE49 /* SnapchatShare.m */; };
 		786016D72373753900D05DDF /* InstagramStories.m in Sources */ = {isa = PBXBuildFile; fileRef = 786016D62373753900D05DDF /* InstagramStories.m */; };
-		6D697F8423A86EBC00F754A1 /* RNShareActivityItemSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D697F8323A86EBC00F754A1 /* RNShareActivityItemSource.m */; };
 		B33C22851D441713006BCD98 /* GenericShare.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C22841D441713006BCD98 /* GenericShare.m */; };
 		B33C22891D4419E8006BCD98 /* WhatsAppShare.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C22881D4419E8006BCD98 /* WhatsAppShare.m */; };
 		B33C228B1D442577006BCD98 /* EmailShare.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C228A1D442576006BCD98 /* EmailShare.m */; };
@@ -34,12 +34,12 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNShare.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D697F8223A86EBC00F754A1 /* RNShareActivityItemSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNShareActivityItemSource.h; sourceTree = "<group>"; };
+		6D697F8323A86EBC00F754A1 /* RNShareActivityItemSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNShareActivityItemSource.m; sourceTree = "<group>"; };
 		78108AA623733C8C00D2BE49 /* SnapchatShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapchatShare.h; sourceTree = "<group>"; };
 		78108AA723733C8C00D2BE49 /* SnapchatShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapchatShare.m; sourceTree = "<group>"; };
 		786016D52373753900D05DDF /* InstagramStories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramStories.h; sourceTree = "<group>"; };
 		786016D62373753900D05DDF /* InstagramStories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramStories.m; sourceTree = "<group>"; };
-		6D697F8223A86EBC00F754A1 /* RNShareActivityItemSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNShareActivityItemSource.h; sourceTree = "<group>"; };
-		6D697F8323A86EBC00F754A1 /* RNShareActivityItemSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNShareActivityItemSource.m; sourceTree = "<group>"; };
 		B33C22841D441713006BCD98 /* GenericShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericShare.m; sourceTree = "<group>"; };
 		B33C22861D441723006BCD98 /* GenericShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericShare.h; sourceTree = "<group>"; };
 		B33C22871D4419DA006BCD98 /* WhatsAppShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatsAppShare.h; sourceTree = "<group>"; };
@@ -265,6 +265,7 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "SnapSDK/**";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -283,6 +284,7 @@
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "SnapSDK/**";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
